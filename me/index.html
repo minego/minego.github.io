@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+	<head>
+		<title>minego</title>
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="viewport" content="initial-scale=1.0,user-scalable=no" />
+
+		<link rel="icon"		href="favicon.ico" />
+		<link rel="stylesheet"	href="quicksand/stylesheet.css"	charset="utf-8" />
+		<link rel="stylesheet"	href="macaw.css"				charset="utf-8" />
+	</head>
+
+	<body>
+		<img id="logo" src="macaw-white.svg" />
+		<div id="title">minego</div>
+
+		<div id="about">
+			<p><label>name</label>Micah N Gorrell</p>
+			<p><label>location</label>South Jordan, UT</p>
+			<p><label>email</label><a href="mailto:macaw@minego.net">macaw@minego.net</a></p>
+			<p><label>github</label><a href="http://github.com/minego/">@minego</a></p>
+			<p><label>app.net</label><a href="http://alpha.app.net/minego/">@minego</a></p>
+			<p><label>twitter</label><a href="http://twitter.com/_minego/">@_minego</a></p>
+			<p><label>google+</label><a href="https://plus.google.com/111212851539498862004">Micah N Gorrell</a></p>
+			<p>
+				<label>recent projects</label><br/>
+					<a class="project" href="https://github.com/minego/cowerpoint">CowerPoint</a><br/>
+					<a class="project" href="https://github.com/netmail-open/wjelement">WJElement (JSON lib for C)</a><br/>
+					<a class="project" href="http://solitaireuniverse.net">solitaire universe</a><br/>
+					<a class="project" href="http://github.com/minego/macaw-enyo">macaw enyo</a><br/>
+					<a class="project" href="http://github.com/minego/phnx">project macaw</a><br/>
+					<a class="project" href="/pwdhash">pwdhash enyo</a>&nbsp;<a href="https://github.com/minego/PwdHash-HD2">(source)</a><br/>
+			</p>
+			<p><label>preware feed</label><a href="/preware">minego.net/preware</a></p>
+		</div>
+
+		<script>
+			if (!window.SVGAngle &&
+				!document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#BasicStructure", "1.1")
+			) {
+				/* No svg support, fall back to png */
+				document.getElementById('logo').src = 'macaw-logo.png';
+			}
+		</script>
+	</body>
+</html>
+
